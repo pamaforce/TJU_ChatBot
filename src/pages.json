@@ -1,0 +1,46 @@
+{
+    "easycom": {
+        "^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+    },
+    "pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+        {
+            "path": "pages/index/index",
+            "style": {
+                "navigationStyle": "custom",
+                "navigationBarTitleText": "black",
+                "enablePullDownRefresh": false,
+                "backgroundColor": "#f6f7f9"
+            }
+        }, {
+            "path": "pages/history/history",
+            "style": {
+                "navigationStyle": "custom",
+                "navigationBarTitleText": "black",
+                "enablePullDownRefresh": false,
+                "backgroundColor": "#f6f7f9"
+            }
+        }, {
+            "path": "pages/about/about",
+            "style": {
+                "navigationStyle": "custom",
+                "navigationBarTitleText": "black",
+                "enablePullDownRefresh": false,
+                "backgroundColor": "#f6f7f9"
+            }
+        }, {
+            "path": "pages/advise/advise",
+            "style": {
+                "navigationStyle": "custom",
+                "navigationBarTitleText": "black",
+                "enablePullDownRefresh": false,
+                "backgroundColor": "#f6f7f9"
+            }
+        }
+    ],
+    "globalStyle": {
+        "navigationBarTextStyle": "black",
+        "navigationStyle": "custom",
+        "navigationBarBackgroundColor": "#F8F8F8",
+        "backgroundColor": "#F8F8F8"
+    }
+}
